@@ -1,3 +1,7 @@
+# Settings for Cloud Run
+runConfig:
+  cpu: 1
+
 env:
   # Get these values from the Firebase console
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
