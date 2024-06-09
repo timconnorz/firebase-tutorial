@@ -1,6 +1,7 @@
 # Settings for Cloud Run
 runConfig:
   cpu: 1
+  maxInstances: 10
 
 env:
   # Get these values from the Firebase console
